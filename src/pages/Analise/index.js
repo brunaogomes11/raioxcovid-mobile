@@ -40,7 +40,7 @@ export default function AnaliseScreen({route}) {
     };
 
     const uploadImageAsync = async (uri) => {
-      let apiUrl = 'https://web-production-fd36.up.railway.app/uploadedRN';
+      let apiUrl = 'https://raio-x-covid-api.onrender.com/uploadedRN';
   
       const uriParts = uri.split('.');
       const fileType = uriParts[uriParts.length - 1];
